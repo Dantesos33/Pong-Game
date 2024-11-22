@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+select, button{
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;    
+}
+
+#canvas{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+}
+
+#menu{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#title{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+#difficulty{
+    display: block;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+#start_btn{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#start_btn:hover{
+    color: aquamarine;
+}
